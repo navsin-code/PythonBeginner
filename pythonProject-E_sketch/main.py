@@ -1,18 +1,18 @@
 from turtle import Turtle,Screen
-tim=Turtle()
+timmy=Turtle()
 screen=Screen()
 
 screen.listen()
 def move_forward():
-    tim.forward(15)
+    timmy.forward(15)
 def move_backward():
-    tim.backward(15)
+    timmy.backward(15)
 def move_clockwise():
-    tim.right(15)
+    timmy.right(15)
 def move_anticlockwise():
-    tim.left(15)
+    timmy.left(15)
 def clear_screen():
-    tim.reset()
+    timmy.reset()
 screen.onkey(key='w', fun=move_forward)
 screen.onkey(key='s', fun=move_backward)
 screen.onkey(key='a', fun=move_clockwise)
